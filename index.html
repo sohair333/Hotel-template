@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!--remix icon-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" href="assests/img/backgrounds/240_F_267269889_4AGWbEqNnBptUji5bhT5G5GWSGL9LIeG.jpg">
+    <link rel="stylesheet" href="style/font-awesome.css">
+    <link rel="stylesheet" href="style/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Hotel Website</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--header start -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="assests/hotel-bell.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Produsts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Room</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <form class="d-flex ">
+                    <input class=" px-3 search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn0 " type="submit">Search</button>
+                 </form>
+                 
+                </ul>
+              </div>
+             
+            </div>
+            
+          </nav>
+      <!--header end -->  
+      <!--main wrapper start-->   
+     <section class="main">
+         
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            
+            <img src="assests/img/backgrounds/0.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content </p>
+                <button type="button" class="btn btn-danger   welcom-button">Read More !</button>
+              </div>
+              
+            <!-- <video src="assests/videos/production ID_4069480.mp4" controls></video> -->
+            
+          </div>
+          
+          <div class="carousel-item">
+            <img src="assests/img/backgrounds/1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content </p>
+                <button type="button" class="btn btn-danger  welcom-button">Read More !</button>
+
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="assests/img/backgrounds/5.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content </p>
+                <button  type="button" class=" btn-danger  welcom-button">Read More !</button>
+
+              </div>
+          </div>
+          
+          
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          -->
+        </button>
+       
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          
+        </button>
+        
+      </div>
+    </section>
+
+      <!--main wrapper start-->  
+      <!--book form start-->
+
+       <section class="book">
+        <div class="container flex-space">
+            <div class="text text-center">
+                <h1><span>Book</span> Your Rooms</h1>
+            </div>
+            <div class="form">
+
+            <form class="grid" action="">
+                <input type="date" name="" placeholder="Arrival date" id="">
+                <input type="date" name="" placeholder="Departure date" id="">
+                <input type="number" name="" placeholder="Adults" id="">
+                <input type="number" name="" placeholder="Children" id="">
+                <input type="submit"  value="Check Availability">
+            </form>
+
+            </div>
+
+        </div>
+
+
+
+       </section> 
+
+
+      <!--book form end-->
+      <!--about us section start-->
+       <section class="about top">
+           <div class="container flex">
+               <div class="row">
+               <div class="left col-lg-6">
+                   <div class="heading">
+                       <h1>Welcome</h1>
+                       <h2><span>Crowny</span> Hotel</h2>
+                   </div>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto similique delectus quidem, nam rerum velit autem odit quod, officia ea. Numquam quidem unde dolor ad odit quo ipsam aperiam?</p>
+                   <button class="primary-btn">About US</button>
+               </div>
+               <div class="right  col-lg-6">
+                   <img src="assests/img/rooms/240_F_271094779_2IpZqsJ0Tr0aZgFE7mSakv8RVS2lTFnM.jpg" alt="" srcset="">
+               </div>
+            </div>
+           </div>
+
+       </section>
+
+
+
+      <!--about us section end-->
+      <!--team section start-->
+       <section id="team" class="team-wrapper">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+
+                    <h6>What I Can do For You ?</h6>
+                    <h3>Our Special Staff</h3>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="assests/img/staff/240_F_329437299_hMz77tiEfQNBbxbX3kRi5HHj4XLlnL4K.jpg" class="img-fluid.rounded-3" alt="" srcset="">
+                        <div class="team-info">
+                            <h5>Sally Ali</h5>
+                            <p>Manager</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="assests/img/staff/2.jpg"class="img-fluid.rounded-3" alt="" srcset="">
+                        <div class="team-info">
+                            <h5>Ahmede Hassen</h5>
+                            <p>Producer</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="assests/img/staff/240_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg" class="img-fluid.rounded-3" alt="" srcset="">
+                        <div class="team-info">
+                            <h5>Hossam hassen</h5>
+                            <p>CEO</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="assests/img/staff/360_F_271617214_zLKFfr6SQ8zPd0rGdxYgXvQ2h5yRKV3A.jpg" class="img-fluid.rounded-3" alt="" srcset="">
+                        <div class="team-info">
+                            <h5>Hala Ali</h5>
+                            <p>Chief</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       </section>
+
+
+      <!--team section end-->
+
+
+      <!--Gallery Section start-->
+
+       <section class="gallery-wrapper" id="gallery">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-12 section-title text-center mb-5">
+                       <h6>Best Service We Offer in our hotel</h6>
+                       <h3>Our Gallery</h3>
+                   </div>
+               </div>
+               <div class="row g-0">
+                   <div class="col-lg-3 col-md-6 gallery-item">
+                       <img src="assests/img/rooms/240_F_124835659_AX80Is4P2WwhFZKB25kVsj0OTD4Uia9j.jpg" class="img-fluid w-100" alt="" srcset="">
+                       <div class="gallery-item-content"></div>
+                   </div>
+
+                   <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="assests/img/returrants/240_F_324727233_GwGkDp3eOeEIETimy5wbSp2983GLrkwy.jpg" class="img-fluid w-100" alt="" srcset="">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="assests/img/rooms/240_F_314189357_XfwtOLZy1dEJr1J5V3bV8BlqfgDBvbbI.jpg" class="img-fluid w-100" alt="" srcset="">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="assests/img/rooms/240_F_315659280_UJZm3Ro0uNd5eqkYtEr9uD6LeyWnHLZc.jpg" class="img-fluid w-100" alt="" srcset="">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="assests/img/rooms/240_F_271082810_CtbTjpnOU3vx43ngAKqpCPUBx25udBrg.jpg" class="img-fluid w-100" alt="" srcset="">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="assests/img/rooms/240_F_302021932_pfJdW3ERJg6IfDinTrCKgW1yhCzUS9l8.jpg" class="img-fluid w-100" alt="" srcset="">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+                
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="assests/img/returrants/240_F_234866233_ObxF7WKpoSdW09pGE0HIBVVKBDmfyz3C.jpg" class="img-fluid w-100" alt="" srcset="">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="assests/img/returrants/240_F_320542116_pZYqKLsuPGFmGGbDUqpJtgh4nHotdejJ.jpg" class="img-fluid w-100" alt="" srcset="">
+                    <div class="gallery-item-content"></div>
+                </div>
+
+
+                
+
+               </div>
+           </div>
+
+       </section>
+
+
+      <!--Gallery Section end-->
+
+       <!--pricing section start-->
+
+       <section id="price" class="price-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best & Offers price for you </h6>
+                    <h3>Our pricing</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight tickets (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30%off)</p>
+                            </li>
+                            <li>
+                                <p>Resturants (Sanks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make(No)</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <h3>$150<sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight tickets (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30%off)</p>
+                            </li>
+                            <li>
+                                <p>Resturants (Sanks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make(No)</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <h3>$150<sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight tickets (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30%off)</p>
+                            </li>
+                            <li>
+                                <p>Resturants (Sanks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make(No)</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <h3>$150<sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight tickets (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30%off)</p>
+                            </li>
+                            <li>
+                                <p>Resturants (Sanks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make(No)</p>
+                            </li>
+                        </ul>
+                        <hr/>
+                        <h3>$150<sub class="fs-6 fw-normal">/Night</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       </section>
+
+       <!--pricing section end-->
+
+        <!--Rooms section start-->
+       <section class="gallery top" id="gallery">
+           <div class="container">
+               <div class="heading_top flex1 text-center">
+                   <h5 class="text-center">Welcom To Our Photo Gallery</h5>
+                   <h2 class="text-center"> Photo Gallery Of our Hotel</h2>
+               </div>
+
+               <div class="button d-md-flex justify-content-md-end">
+                   <button class="btn1">View Gallery</button>
+               </div>
+
+
+
+
+               <div class="owl-carousel owl-theme">
+                <div class="item">
+                <img src="assests/img/rooms/240_F_61193478_xvhXZryBRFH9vKV4z5WqhknW5qMTXNVL.jpg" alt="">
+                
+                </div>
+
+                <div class="item">
+                    <img src="assests/img/rooms/3d-rendering-modern-luxury-bedroom-suite-night-with-cozy-design_105762-577.webp" alt="">
+                    
+                    </div>
+
+
+                    <div class="item">
+                        <img src="assests/img/returrants/240_F_320503111_AkPfl6llysU9c54RlAUGm4gqYIkBoZZo.jpg" alt="">
+                        
+                        </div>
+
+
+                        <div class="item">
+                            <img src="assests/img/returrants/240_F_238346344_z4ESmYoQAvZBHRtGQWDd5PDMRGl0xcYm.jpg" alt="">
+                            
+                            </div>
+
+
+                            <div class="item">
+                                <img src="assests/img/rooms/240_F_321789819_Jyv66AM5PoY0j9tZzjkB1c807zQQXtZh.jpg" alt="">
+                                
+                                </div>
+
+
+                                <div class="item">
+                                    <img src="assests/img/rooms/240_F_206069746_2asQUoVzvkd2OvPF4m2qadodhTbugBMY.jpg" alt="">
+                                    
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="assests/img/rooms/1000_F_277685543_bZy10zzHIR8wjLRd5NUCgYMZQadEDGWe.jpg" alt="">
+                                        
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="assests/img/rooms/240_F_208101728_dQu1qlzjpeNczijwh7fO38wxQmV3FEmi.jpg" alt="">
+                                            
+                                            </div>
+              
+            </div>
+
+
+
+
+           </div>
+       </section>
+      
+
+       <!--timer section end-->
+       <!--conatct section start-->
+
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center">keep in Touch With Us</h1>
+                </div>
+                <div class="row">
+                    <div class="contact-img col-lg-6 col-md-12">
+                        <img src="assests/img/rooms/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.webp" style="width: 25vw; height: 50vh;" alt="" srcset="">
+
+                    </div>
+                    <div class="form-group col-lg-6 col-md-12">
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Leave Comment</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-danger">Submit</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+       <!--conatct section end-->
+       <!--google map start-->
+
+        <section class="map col-sm-12 col-md-12"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d308971.69968651794!2d31.4337737539545!3d30.41035820635816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1647281768777!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </section>
+
+        <!--google map end-->
+       <!--footer start-->
+
+        <footer>
+
+
+            <div class="container-fluid  top">
+                <div class="row">
+                <div class="box col-md-3 col-sm-6">
+                    <img class="mark" src="https://hospitalitydesign.com/wp-content/uploads/2022/02/emelarld-logo.png" alt="" srcset="">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sequi cumque </p>
+                    <p>Accepted payment Methods</p>
+                    <div class="payment grid">
+                        <img src="https://img.icons8.com/color/48/000000/visa.png" alt="" srcset="">
+                        <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="" srcset="">
+                        <img src="https://img.icons8.com/color-glass/48/000000/paypal.png" alt="" srcset="">
+                        <img src="https://img.icons8.com/fluency/48/000000/amex.png" alt="" srcset="">
+                    </div>
+                </div>
+
+                <div class="box col-md-3 col-sm-6" >
+                    <ul class="list-unstyled">
+                        <li class="li-1">Our Secret  Tour Is just For you</li>
+                        <li>Chill and Escape in our Natural Shelters</li>
+                        <li>September in luviana Hotel</li>
+                        <li>Live Music Concerts at Lyvians</li>
+                    </ul>
+            
+                </div>
+
+                <div class="box col-md-3 col-sm-6">
+                    <h3>For Customer</h3>
+                    <ul class="list-unstyled">
+                        <li>About Luivans</li>
+                        <li>Customer Care/Help </li>
+                        <li>Corporates Accounts</li>
+                        <li>Finanicail Information</li>
+                        <li>terms & Conditions</li>
+                    </ul>
+                </div>
+                <div class="box col-md-3 col-sm-6">
+                    <h3>Contact Us</h3>
+                    <ul class="list-unstyled">
+                      
+                        <li><i class="far fa-envelope"></i>demoexample@gmail.com </li>
+                        <li><i class="fa fa-phone"></i>1223 458 1258</li>
+                        <li><i class="fa fa-phone"></i>1254 125 1658 </li>
+                        <li><i class="far fa-comments"></i>12 / 5 Customer Service</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="rights text-center"> All Right are Reserved &copy; By Sohair</div>
+
+        </footer>
+
+
+       <!--footer end-->
+
+    <!-- <script src="js/jquery.countdown.js"></script>    
+    <script src="js/jquery.countdown.min.js"></script>   -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script >
+        $("#time")
+        .countdown("2022/05/30", function(event) {
+          $(this).html(
+            event.strftime(
+            '<div class="clock"><span>%d</span><p>Days </p></div>'+
+            '<div class="clock"><span>%H</span><p>Hourse</p></div>'+
+            '<div class="clock"><span>%M</span><p>Minutes</p> </div>'+
+            '<div class="clock"><span>%S</span><p>Seconds</p> </div>'
+            )
+          );
+        });
+   </script>
+   <script >
+ 
+    $("#time")
+    .countdown("2017/01/01", function(event) {
+      $(this).html(
+        event.strftime('%D days %H:%M:%S')
+      );
+    });
+  </script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    navText:["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+    })
+  </script>
+</body>
+</html>
